@@ -48,7 +48,7 @@ Start: ${MarkdownV2Parser(startLocation)}
 
 End Location: ${MarkdownV2Parser(endLocation)} 
 
-Distance: ${distance}KM
+Distance: ${MarkdownV2Parser(distance.toString())}KM
 
 Price: $${price}
 
