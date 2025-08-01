@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DashValet - Singapore Valet Booking",
   description: "Booking Page",
+  verification: {
+    google: process.env.GOOGLE_ANALYTICS_API
+  }
 };
 
 export default function RootLayout({
