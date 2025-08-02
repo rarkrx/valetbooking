@@ -585,13 +585,13 @@ const ValetBookingApp = () => {
                     <div className="text-center bg-white/10 backdrop-blur-md rounded-2xl p-12 border border-white/20">
                         <h2 className="text-2xl font-semibold text-white mb-4">No Past Bookings Found</h2>
                         <p className="text-slate-300 mb-6">It looks like you haven{`'`}t booked a ride with us yet.</p>
-                        <button
+                        {/* <button
                             // Assuming you have a function to navigate back to the booking page
                             onClick={() => console.log("Navigate to new booking page")}
                             className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-200"
                         >
                             Book a New Ride
-                        </button>
+                        </button> */}
                     </div>
                 ) : (
                     <div className="space-y-6">
